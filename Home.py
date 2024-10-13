@@ -147,7 +147,7 @@ slt.markdown("""
     """, unsafe_allow_html=True)
 
 # Image d'entête sous le titre
-header_image = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\headimage.png")
+header_image = Image.open("headimage.png")
 slt.image(header_image, use_column_width=True)
 
 # Présentation du site
@@ -165,13 +165,13 @@ slt.markdown("## **Nos Consoles PlayStation**")
 col1, col2 = slt.columns(2)
 
 with col1:
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\playstation5.jpeg"), caption="PlayStation 5", width=300)
+    slt.image(Image.open("playstation5.jpeg"), caption="PlayStation 5", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 350 000 FCFA</div>", unsafe_allow_html=True)
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\playstation4.jpeg"), caption="PlayStation 4", width=300)
+    slt.image(Image.open("playstation4.jpeg"), caption="PlayStation 4", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 150 000 FCFA</div>", unsafe_allow_html=True)
 
 with col2:
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\playstation3.jpeg"), caption="PlayStation 3", width=300)
+    slt.image(Image.open("playstation3.jpeg"), caption="PlayStation 3", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 35 000 FCFA</div>", unsafe_allow_html=True)
     slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\playstation2.jpeg"), caption="PlayStation 2", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 35 000 FCFA</div>", unsafe_allow_html=True)
@@ -181,15 +181,15 @@ slt.markdown("## **Nos Consoles Xbox**")
 col3, col4 = slt.columns(2)
 
 with col3:
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\xboxserie s.jpeg"), caption="Xbox Series N", width=300)
+    slt.image(Image.open("xboxserie s.jpeg"), caption="Xbox Series N", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 400 000 FCFA</div>", unsafe_allow_html=True)
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\xboxserie x.jpeg"), caption="Xbox Series", width=300)
+    slt.image(Image.open("xboxserie x.jpeg"), caption="Xbox Series", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 350 000 FCFA</div>", unsafe_allow_html=True)
 
 with col4:
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\xboxone.jpeg"), caption="Xbox One", width=300)
+    slt.image(Image.open("xboxone.jpeg"), caption="Xbox One", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 200 000 FCFA</div>", unsafe_allow_html=True)
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\xbox360.jpeg"), caption="Xbox 360", width=300)
+    slt.image(Image.open("xbox360.jpeg"), caption="Xbox 360", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 70 000 FCFA</div>", unsafe_allow_html=True)
 
 # Section pour Nintendo
@@ -197,26 +197,26 @@ slt.markdown("## **Nos Consoles Nintendo**")
 col5, col6 = slt.columns(2)
 
 with col5:
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\ns.jpeg"), caption="Nintendo Switch", width=300)
+    slt.image(Image.open("ns.jpeg"), caption="Nintendo Switch", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 250 000 FCFA</div>", unsafe_allow_html=True)
 
 with col6:
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\nsl.jpeg"), caption="Nintendo Switch Lite", width=300)
+    slt.image(Image.open("nsl.jpeg"), caption="Nintendo Switch Lite", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 150 000 FCFA</div>", unsafe_allow_html=True)
 
 ### ime de bas
-header_image1 = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\headimage4.png")
+header_image1 = Image.open("headimage4.png")
 slt.image(header_image1, use_column_width=True)
 ###
-header_image1 = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\headimage5.png")
+header_image1 = Image.open("headimage5.png")
 slt.image(header_image1, use_column_width=True)
 ###
 col1m, col2m = slt.columns(2)
 with col1m:
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\pearce.jpg") , caption ="READY FOR WAR",width=300)
+    slt.image(Image.open("pearce.jpg") , caption ="READY FOR WAR",width=300)
 slt.markdown("<div style='border: 2px solid #4B0082; background-color: #D41E1E; padding: 10px; border-radius: 10px;'>AIDEN PEARCE</div>", unsafe_allow_html=True)
 with col2m:
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\kratos.jpg") , caption ="READY FOR ENEMIES",width=300)
+    slt.image(Image.open("kratos.jpg") , caption ="READY FOR ENEMIES",width=300)
 slt.markdown("<div style='border: 2px solid #4B0082; background-color: #D41E1E; padding: 10px; border-radius: 10px;'>KRATOS</div>", unsafe_allow_html=True)
 # Contact en bas de page
 slt.markdown("""
