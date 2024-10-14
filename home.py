@@ -102,7 +102,7 @@ slt.markdown("""
 """, unsafe_allow_html=True)
 
 # Titre de l'application
-slt.title("NIANGADOU GAMESHOP")
+slt.title("GAMBY GAMESHOP")
 slt.markdown("Bienvenue sur notre site de vente de consoles et manettes !")
 slt.markdown("Numéro 1 : +223 7537017")
 slt.markdown("Numero 2 : +223 84555583")
@@ -161,7 +161,7 @@ with col1:
 
 with col2:
     slt.image(Image.open("Playstation3.jpeg"), caption="PlayStation 3", width=300)
-    slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 35 000 FCFA</div>", unsafe_allow_html=True)
+    slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 70 000 FCFA</div>", unsafe_allow_html=True)
     slt.image(Image.open("Playstation2.jpeg"), caption="PlayStation 2", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 35 000 FCFA</div>", unsafe_allow_html=True)
 
