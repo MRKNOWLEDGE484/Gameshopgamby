@@ -143,7 +143,7 @@ slt.image(header_image, use_column_width=True)
 slt.markdown(""" 
     <div style='text-align: center; font-family: "Courier New", Courier, monospace; color: #FF4500;'>
         <p style='font-size: 22px;'>
-            NIANGADOU GAMESHOP est votre destination numéro 1 pour tout ce qui concerne les consoles de jeux vidéo, les jeux, 
+            GAMBY GAMESHOP est votre destination numéro 1 pour tout ce qui concerne les consoles de jeux vidéo, les jeux, 
             les manettes et accessoires. Que vous soyez un fan de PlayStation, Xbox ou Nintendo, nous avons tout ce qu'il vous faut !
         </p>
     </div>
