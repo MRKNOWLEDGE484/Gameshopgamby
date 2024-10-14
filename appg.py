@@ -11,9 +11,9 @@ menu = slt.sidebar.selectbox(
 
 # Afficher le contenu de la page selon le choix dans le menu
 if menu == "Accueil":
-    home.show_page()  # Affiche la page d'accueil
+    home.show_page1()  # Affiche la page d'accueil
 elif menu == "Manettes et CD":
-    manette_cd.show_page()  # Affiche la page 'Manettes et CD'
+    manette_cd.show_page2()  # Affiche la page 'Manettes et CD'
     header_image = Image.open("headimage2.png")
 slt.image(header_image, use_column_width=True)
 import streamlit as st
