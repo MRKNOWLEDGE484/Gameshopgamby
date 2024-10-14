@@ -124,7 +124,7 @@ slt.markdown("## Manettes PlayStation")
 
 col1, col2 = slt.columns([1, 1])
 with col1:
-    ps2_controller = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\ps2.jpeg")
+    ps2_controller = Image.open("ps2.jpeg")
     slt.image(ps2_controller, caption="Manette PlayStation 2", use_column_width=True)
     slt.markdown("""
         <div style='border: 2px solid orange; padding: 10px; background-color: #FFD700; text-align: center;'>
@@ -132,7 +132,7 @@ with col1:
         </div>
     """, unsafe_allow_html=True)
 
-    ps3_controller = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\ps3.jpeg")
+    ps3_controller = Image.open("ps3.jpeg")
     slt.image(ps3_controller, caption="Manette PlayStation 3", use_column_width=True)
     slt.markdown("""
         <div style='border: 2px solid orange; padding: 10px; background-color: #FFD700; text-align: center;'>
@@ -141,7 +141,7 @@ with col1:
     """, unsafe_allow_html=True)
 
 with col2:
-    ps4_controller = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\ps4.jpeg")
+    ps4_controller = Image.open("ps4.jpeg")
     slt.image(ps4_controller, caption="Manette PlayStation 4", use_column_width=True)
     slt.markdown("""
         <div style='border: 2px solid orange; padding: 10px; background-color: #FFD700; text-align: center;'>
@@ -149,7 +149,7 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
 
-    ps5_controller = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\ps5.jpeg")
+    ps5_controller = Image.open("ps5.jpeg")
     slt.image(ps5_controller, caption="Manette PlayStation 5", use_column_width=True)
     slt.markdown("""
         <div style='border: 2px solid orange; padding: 10px; background-color: #FFD700; text-align: center;'>
@@ -161,7 +161,7 @@ slt.markdown("## Manettes Xbox")
 
 col1, col2, col3 = slt.columns([1, 1, 1])
 with col1:
-    xbox_one_controller = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\one.jpeg")
+    xbox_one_controller = Image.open("one.jpeg")
     slt.image(xbox_one_controller, caption="Manette Xbox One", use_column_width=True)
     slt.markdown("""
         <div style='border: 2px solid orange; padding: 10px; background-color: #FFD700; text-align: center;'>
@@ -169,7 +169,7 @@ with col1:
         </div>
     """, unsafe_allow_html=True)
 
-    xbox_series_x_controller = Image.open(r"C:\Users\Lenovo\Desktop\games shop project\x.jpeg")
+    xbox_series_x_controller = Image.open("x.jpeg")
     slt.image(xbox_series_x_controller, caption="Manette Xbox Series X", use_column_width=True)
     slt.markdown("""
         <div style='border: 2px solid orange; padding: 10px; background-color: #FFD700; text-align: center;'>
