@@ -215,7 +215,8 @@ header_imagem1 = Image.open("endm.jpeg")
 slt.image(header_imagem1, use_column_width=True)
 header_imagem = Image.open("logo.png")
 slt.image(header_imagem, use_column_width=True)
-    
+def show_page():
+print("Page loaded")
 
 # Section contact avec logos sous la présentation
 slt.markdown("## Contactez-nous")
