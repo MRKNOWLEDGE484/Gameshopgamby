@@ -1,8 +1,7 @@
 from PIL import Image
 import streamlit as slt
 import base64
-def show_page():
-    print("Page loaded")
+
 
 
 # Configuration de la page
