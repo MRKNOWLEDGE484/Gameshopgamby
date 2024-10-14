@@ -3,8 +3,8 @@ import streamlit as slt
 # Configuration de la page
 slt.set_page_config(page_title="GAMBYGameshop.com", layout="wide",page_icon="logo.png")
 def show_page1():
-  slt.set_page_config(page_title="GAMBYGameshop.com", layout="wide",page_icon="logo.png")
-# Créer un conteneur amélioré pour le numéro et les logos en haut à gauche
+    
+  # Créer un conteneur amélioré pour le numéro et les logos en haut à gauche
 slt.markdown(""" 
     <style>
         .top-left-container {
