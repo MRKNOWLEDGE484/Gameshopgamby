@@ -1,7 +1,7 @@
 from PIL import Image
 import streamlit as slt
-import Home  # Contient la page d'accueil
-import Manettes et CD  # Contient la page 'Manettes et CD'
+import home  # Contient la page d'accueil
+import manette_cd  # Contient la page 'Manettes et CD'
 
 # Créer une barre de navigation
 menu = slt.sidebar.selectbox(
@@ -11,9 +11,9 @@ menu = slt.sidebar.selectbox(
 
 # Afficher le contenu de la page selon le choix dans le menu
 if menu == "Accueil":
-    Home.show_page()  # Affiche la page d'accueil
+    home.show_page()  # Affiche la page d'accueil
 elif menu == "Manettes et CD":
-    Manette et CD.show_page()  # Affiche la page 'Manettes et CD'
+    manette_cd.show_page()  # Affiche la page 'Manettes et CD'
     header_image = Image.open("headimage2.png")
 slt.image(header_image, use_column_width=True)
 import streamlit as st
