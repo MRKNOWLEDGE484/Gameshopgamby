@@ -74,20 +74,21 @@ slt.markdown("""
 """, unsafe_allow_html=True)
 
 # Titre du menu
+import Home  # Contient la page d'accueil
+import Manette et CD  # Contient la page 'Manettes et CD'
+
+# Créer une barre de navigation
 menu = st.sidebar.selectbox(
-    'Navigation', 
-    ['Home', 'Manettes et CD']
+    "Navigation",
+    ["Accueil", "Manettes et CD"]
 )
 
-# Affichage du contenu selon la sélection
-if menu == 'Accueil':
-    st.title('Bienvenue sur NIANGADOU GAMESHOP')
-    # Contenu de la page d'accueil
-    st.write("Ici, vous trouverez toutes nos consoles, manettes et CD.")
-    
-elif menu == 'Manettes et CD':
-    # Importation et exécution du fichier correspondant
-    import manettes_cd
+# Afficher le contenu de la page selon le choix dans le menu
+if menu == "Accueil":
+    Home.show_page()  # Affiche la page d'accueil
+elif menu == "Manettes et CD":
+    Manette et CD.show_page()  # Affiche la page 'Manettes et CD'
+
 # Appliquer une couleur de fond bleu électrique sur toute l'étendue de la page
 slt.markdown("""
     <style>
