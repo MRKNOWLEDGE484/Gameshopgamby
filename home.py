@@ -129,7 +129,7 @@ slt.markdown("""
 slt.markdown(""" 
     <h1 style='text-align: center; font-size: 50px; color: #FF4500; 
     font-family: "Courier New", Courier, monospace; text-decoration: underline;'>
-    Bienvenue sur NIANGADOU GAMESHOP
+    Bienvenue sur GAMBY GAMESHOP
              numéro 1 : +223 7537017
              numéro 2 : +223 84555583
     </h1>
@@ -336,7 +336,7 @@ slt.markdown("""
             Profitez de notre large gamme de manettes de haute qualité et améliorez votre gameplay dès maintenant.
         </p>
         <h3 style="color: #FFD700; margin-top: 20px;">Commandez dès maintenant et profitez des meilleures offres !</h3>
-        <p style="font-size: 18px; color: #32CD32; font-weight: bold;">NIANGADOU GAMESHOP - Votre boutique pour toutes vos manettes de jeux vidéo.</p>
+        <p style="font-size: 18px; color: #32CD32; font-weight: bold;">GAMBY GAMESHOP - Votre boutique pour toutes vos manettes de jeux vidéo.</p>
     </div>
     """, unsafe_allow_html=True)
 
