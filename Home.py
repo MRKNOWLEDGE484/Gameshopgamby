@@ -167,13 +167,13 @@ col1, col2 = slt.columns(2)
 with col1:
     slt.image(Image.open("playstation5.jpeg"), caption="PlayStation 5", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 350 000 FCFA</div>", unsafe_allow_html=True)
-    slt.image(Image.open("playstation4.jpeg"), caption="PlayStation 4", width=300)
+    slt.image(Image.open("Playstation4.jpeg"), caption="PlayStation 4", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 150 000 FCFA</div>", unsafe_allow_html=True)
 
 with col2:
-    slt.image(Image.open("playstation3.jpeg"), caption="PlayStation 3", width=300)
+    slt.image(Image.open("Playstation3.jpeg"), caption="PlayStation 3", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 35 000 FCFA</div>", unsafe_allow_html=True)
-    slt.image(Image.open(r"C:\Users\Lenovo\Desktop\games shop project\playstation2.jpeg"), caption="PlayStation 2", width=300)
+    slt.image(Image.open("Playstation2.jpeg"), caption="PlayStation 2", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 35 000 FCFA</div>", unsafe_allow_html=True)
 
 # Section pour Xbox
