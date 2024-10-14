@@ -74,12 +74,20 @@ slt.markdown("""
 """, unsafe_allow_html=True)
 
 # Titre du menu
-slt.sidebar.markdown("<h1 style='color: white;'>Menu 🎮</h1>", unsafe_allow_html=True)
+menu = st.sidebar.selectbox(
+    'Navigation', 
+    ['Home', 'Manettes et CD']
+)
 
-# Liens de navigation
-slt.sidebar.markdown("[🎮 Consoles](Manette et CD.py)")
-slt.sidebar.markdown("[🕹️ Manettes](Manette et CD.py)")
-
+# Affichage du contenu selon la sélection
+if menu == 'Accueil':
+    st.title('Bienvenue sur NIANGADOU GAMESHOP')
+    # Contenu de la page d'accueil
+    st.write("Ici, vous trouverez toutes nos consoles, manettes et CD.")
+    
+elif menu == 'Manettes et CD':
+    # Importation et exécution du fichier correspondant
+    import manettes_cd
 # Appliquer une couleur de fond bleu électrique sur toute l'étendue de la page
 slt.markdown("""
     <style>
