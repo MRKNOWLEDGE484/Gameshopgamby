@@ -77,7 +77,7 @@ slt.markdown("""
 slt.sidebar.markdown("<h1 style='color: white;'>Menu 🎮</h1>", unsafe_allow_html=True)
 
 # Liens de navigation
-slt.sidebar.markdown("[🎮 Consoles](Home.py)")
+slt.sidebar.markdown("[🎮 Consoles](Manette et CD.py)")
 slt.sidebar.markdown("[🕹️ Manettes](Manette et CD.py)")
 
 # Appliquer une couleur de fond bleu électrique sur toute l'étendue de la page
