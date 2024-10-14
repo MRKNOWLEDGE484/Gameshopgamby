@@ -2,9 +2,7 @@ from PIL import Image
 import streamlit as slt
 import base64
 # Configuration de la page
-slt.set_page_config(page_title="Manette", layout="wide",page_icon="logo.png")
-def show_page2():
-   
+slt.set_page_config(page_title="Manette", layout="wide",page_icon="logo.png")        def show_page2():
   slt.markdown(""" 
     <style>
         .top-left-container {
@@ -245,3 +243,6 @@ slt.markdown("""
 
    
 
+
+   
+  
