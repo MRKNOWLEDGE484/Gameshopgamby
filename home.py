@@ -1,8 +1,9 @@
 from PIL import Image
 import streamlit as slt
 # Configuration de la page
+slt.set_page_config(page_title="GAMBYGameshop.com", layout="wide",page_icon="logo.png")
 def show_page1():
-    slt.set_page_config(page_title="GAMBYGameshop.com", layout="wide",page_icon="logo.png")
+  slt.set_page_config(page_title="GAMBYGameshop.com", layout="wide",page_icon="logo.png")
 # Créer un conteneur amélioré pour le numéro et les logos en haut à gauche
 slt.markdown(""" 
     <style>
@@ -228,5 +229,7 @@ slt.markdown("""
     <p style='text-align: center; font-size: 20px; color: #000000;'>Téléphone : <a href="tel:+2237537017">+223 7537017</a></p>
     """, unsafe_allow_html=True)
 ###
+
+    
 
     
