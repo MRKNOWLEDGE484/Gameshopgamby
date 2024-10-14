@@ -1,7 +1,9 @@
 from PIL import Image
 import streamlit as slt
 import home  # Contient la page d'accueil
-import manette_cd  # Contient la page 'Manettes et CD'
+import manette_cd  
+# Contient la page 'Manettes et CD'
+slt.set_page_config(page_title="GAMBYGameshop.com", layout="wide",page_icon="logo.png")
 
 # Créer une barre de navigation
 menu = slt.sidebar.selectbox(
