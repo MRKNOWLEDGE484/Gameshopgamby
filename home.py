@@ -1,6 +1,7 @@
 from PIL import Image
 import streamlit as slt
-
+def show_page():
+    print("Page loaded")
 # Configuration de la page
 slt.set_page_config(page_title="GAMBYGameshop.com", layout="wide",page_icon="logo.png")
 # Créer un conteneur amélioré pour le numéro et les logos en haut à gauche
