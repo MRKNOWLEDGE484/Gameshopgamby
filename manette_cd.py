@@ -1,10 +1,11 @@
 from PIL import Image
 import streamlit as slt
 import base64
-
-def show_page2():
-    # Configuration de la page
+# Configuration de la page
 slt.set_page_config(page_title="Manette", layout="wide",page_icon="logo.png")
+def show_page2():
+  
+    slt.set_page_config(page_title="Manette", layout="wide",page_icon="logo.png")
 # Créer un conteneur amélioré pour le numéro et les logos en haut à gauche
 slt.markdown(""" 
     <style>
@@ -240,5 +241,6 @@ slt.markdown("""
         NIAGADOUSHOP
     </div>
     """, unsafe_allow_html=True)
+
 
 
