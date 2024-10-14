@@ -455,10 +455,10 @@ with col2:
         <a href="https://www.instagram.com" target="_blank">Contactez-nous sur Instagram</a>
     """, unsafe_allow_html=True)
 
-# Ajout du filigrane "NIAGADOUSHOP" dans le style jeu vidéo
+# Ajout du filigrane "GAMBY GAMES" dans le style jeu vidéo
 slt.markdown("""
     <div style='position: fixed; bottom: 10px; right: 10px; font-size: 20px; color: rgba(255, 255, 255, 0.1); font-family: "Courier New", Courier, monospace;'>
-        NIAGADOUSHOP
+        GAMBY GAMES
     </div>
     """, unsafe_allow_html=True)
 
