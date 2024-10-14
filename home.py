@@ -170,9 +170,9 @@ slt.markdown("## **Nos Consoles Xbox**")
 col3, col4 = slt.columns(2)
 
 with col3:
-    slt.image(Image.open("xboxserie s.jpeg"), caption="Xbox Series N", width=300)
+    slt.image(Image.open("xboxserie s.jpeg"), caption="Xbox Series S", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 400 000 FCFA</div>", unsafe_allow_html=True)
-    slt.image(Image.open("xboxserie x.jpeg"), caption="Xbox Series", width=300)
+    slt.image(Image.open("xboxserie x.jpeg"), caption="Xbox Serie X", width=300)
     slt.markdown("<div style='border: 2px solid #4B0082; background-color: #FFA500; padding: 10px; border-radius: 10px;'>**Prix :** 350 000 FCFA</div>", unsafe_allow_html=True)
 
 with col4:
