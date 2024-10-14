@@ -1,7 +1,5 @@
 from PIL import Image
 import streamlit as slt
-def show_page():
-    print("Page loaded")
 # Configuration de la page
 slt.set_page_config(page_title="GAMBYGameshop.com", layout="wide",page_icon="logo.png")
 # Créer un conteneur amélioré pour le numéro et les logos en haut à gauche
@@ -75,7 +73,8 @@ slt.markdown("""
 """, unsafe_allow_html=True)
 
 # Titre du menu
-
+def show_page():
+    print("Page loaded")
 
 # Appliquer une couleur de fond bleu électrique sur toute l'étendue de la page
 slt.markdown("""
