@@ -106,12 +106,7 @@ slt.title("NIANGADOU GAMESHOP")
 slt.markdown("Bienvenue sur notre site de vente de consoles et manettes !")
 slt.markdown("Numéro 1 : +223 7537017")
 slt.markdown("Numero 2 : +223 84555583")
-# Titre du menu
-slt.sidebar.markdown("<h2 style='text-align: center;'>🎮 Menu 🎮</h2>", unsafe_allow_html=True)
-slt.sidebar.success("Choisissez la page")
-slt.sidebar.markdown("## 🎮 Consoles \n Sélectionnez cette section pour découvrir nos consoles.")
-slt.sidebar.markdown("## 🎮 Manettes \n Explorez notre collection de manettes.")
-slt.sidebar.markdown("## 🎶 CD \n Consultez notre sélection de CD de jeux.")
+
 # Appliquer une couleur de fond bleu électrique sur toute l'étendue de la page
 slt.markdown("""
     <style>
