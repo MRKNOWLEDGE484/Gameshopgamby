@@ -428,7 +428,7 @@ slt.markdown("""
             Nos CD sont disponibles à des prix compétitifs pour offrir des heures de divertissement intense.
         </p>
         <h3 style="color: #FFD700; margin-top: 20px;">Achetez vos CD de jeux maintenant et vivez l'expérience ultime du gaming !</h3>
-        <p style="font-size: 18px; color: #32CD32; font-weight: bold;">NIANGADOU GAMESHOP - Votre source pour les CD de jeux vidéo de toutes les consoles.</p>
+        <p style="font-size: 18px; color: #32CD32; font-weight: bold;">GAMBY GAMES - Votre source pour les CD de jeux vidéo de toutes les consoles.</p>
     </div>
     """, unsafe_allow_html=True)
 ### image de bas
