@@ -261,7 +261,7 @@ slt.markdown("""
     </style>
     <div class="top-left-container">
         <p>Téléphone : <a href="tel:+22375357017">+223 75357017</a></p>
-        <a href="https://wa.me/+2237537017" target="_blank">
+        <a href="https://wa.me/+22375357017" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
         </a>
         <a href="https://www.instagram.com/" target="_blank">
