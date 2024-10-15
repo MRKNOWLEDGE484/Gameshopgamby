@@ -36,7 +36,7 @@ slt.markdown("""
         }
     </style>
     <div class="top-left-container">
-        <p>Téléphone : <a href="tel:+2237537017">+223 7537017</a></p>
+        <p>Téléphone : <a href="tel:+22375357017">+223 75357017</a></p>
         <a href="https://wa.me/+2237537017" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
         </a>
@@ -260,7 +260,7 @@ slt.markdown("""
         }
     </style>
     <div class="top-left-container">
-        <p>Téléphone : <a href="tel:+2237537017">+223 7537017</a></p>
+        <p>Téléphone : <a href="tel:+22375357017">+223 75357017</a></p>
         <a href="https://wa.me/+2237537017" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
         </a>
@@ -317,7 +317,7 @@ slt.markdown("""
     Les differents manttes
     </h1>
     """, unsafe_allow_html=True)
-slt.markdown("Numéro 1 : +223 7537017")
+slt.markdown("Numéro 1 : +223 75357017")
 slt.markdown("Numero 2 : +223 84555583")
 
 # Image d'entête sous le titre
