@@ -104,7 +104,7 @@ slt.markdown("""
 # Titre de l'application
 slt.title("GAMBY GAMESHOP")
 slt.markdown("Bienvenue sur notre site de vente de consoles et manettes !")
-slt.markdown("Numéro 1 : +223 7537017")
+slt.markdown("Numéro 1 : +223 75357017")
 slt.markdown("Numero 2 : +223 84555583")
 
 # Appliquer une couleur de fond bleu électrique sur toute l'étendue de la page
