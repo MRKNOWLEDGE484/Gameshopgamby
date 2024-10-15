@@ -37,7 +37,7 @@ slt.markdown("""
     </style>
     <div class="top-left-container">
         <p>Téléphone : <a href="tel:+22375357017">+223 75357017</a></p>
-        <a href="https://wa.me/+2237537017" target="_blank">
+        <a href="https://wa.me/+22375357017" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
         </a>
         <a href="https://www.instagram.com/" target="_blank">
@@ -130,7 +130,7 @@ slt.markdown("""
     <h1 style='text-align: center; font-size: 50px; color: #FF4500; 
     font-family: "Courier New", Courier, monospace; text-decoration: underline;'>
     Bienvenue sur GAMBY GAMESHOP
-             numéro 1 : +223 7537017
+             numéro 1 : +223 75357017
              numéro 2 : +223 84555583
     </h1>
     """, unsafe_allow_html=True)
