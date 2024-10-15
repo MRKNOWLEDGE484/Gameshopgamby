@@ -224,7 +224,7 @@ slt.markdown("""
     """, unsafe_allow_html=True)
 # Numéro de téléphone répété en bas de page
 slt.markdown(""" 
-    <p style='text-align: center; font-size: 20px; color: #000000;'>Téléphone : <a href="tel:+22375357017">+223 7537017</a></p>
+    <p style='text-align: center; font-size: 20px; color: #000000;'>Téléphone : <a href="tel:+22375357017">+223 75357017</a></p>
     """, unsafe_allow_html=True)
 ###
 slt.markdown(""" 
