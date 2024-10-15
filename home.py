@@ -211,7 +211,7 @@ slt.markdown("<div style='border: 2px solid #4B0082; background-color: #D41E1E; 
 slt.markdown("""
     <div style='text-align: center; font-family: "Courier New", Courier, monospace; color: #32CD32;'>
         <p style='font-size: 20px;'>Contactez-nous sur :</p>
-        <a href="https://wa.me/+2237537017" target="_blank">
+        <a href="https://wa.me/+22375357017" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 30px; height: 30px; vertical-align: middle;"/>
             WhatsApp
         </a>
